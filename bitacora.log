@@ -1,15 +1,18 @@
-2023-06-04 21:07:48,500 | DEBUG:Iniciando programa | MainThread | <module> | 85|
-2023-06-04 21:07:48,500 | DEBUG:Leyendo archivo | MainThread | <module> | 86|
-2023-06-04 21:07:50,178 | DEBUG:Dividiendo texto en 2 | MainThread | <module> | 96|
-2023-06-04 21:07:50,186 | DEBUG:Cifrando texto 1 | MainThread | <module> | 101|
-2023-06-04 21:07:53,190 | DEBUG:Cifrando texto 2 | MainThread | <module> | 104|
-2023-06-04 21:07:56,274 | DEBUG:Solicitando servidor para texto 1 | MainThread | <module> | 107|
-2023-06-04 21:07:56,275 | DEBUG:Solicitando servidor al gsc desde el cliente ... | MainThread | solicitud | 66|
-2023-06-04 21:07:56,311 | DEBUG:Starting new HTTP connection (1): localhost:5000 | MainThread | _new_conn | 244|
-2023-06-04 21:08:04,447 | DEBUG:http://localhost:5000 "POST /solicitud HTTP/1.1" 500 13496 | MainThread | _make_request | 546|
-2023-06-04 21:08:04,448 | DEBUG:Solicitando servidor para texto 2 | MainThread | <module> | 110|
-2023-06-04 21:08:04,448 | DEBUG:Solicitando servidor al gsc desde el cliente ... | MainThread | solicitud | 66|
-2023-06-04 21:08:04,488 | DEBUG:Starting new HTTP connection (1): localhost:5000 | MainThread | _new_conn | 244|
-2023-06-04 21:08:12,084 | DEBUG:http://localhost:5000 "POST /solicitud HTTP/1.1" 500 13496 | MainThread | _make_request | 546|
-2023-06-04 21:08:12,085 | DEBUG:Error en la solicitud de los servidores | MainThread | <module> | 125|
-2023-06-04 21:08:12,085 | DEBUG:Programa finalizado | MainThread | <module> | 127|
+2023-06-04 22:21:44,300 | DEBUG:Iniciando programa | MainThread | <module> | 95|
+2023-06-04 22:21:44,301 | DEBUG:Leyendo archivo | MainThread | <module> | 96|
+2023-06-04 22:21:44,399 | DEBUG:TESTEANDO LOS SERVIDORES ... | MainThread | serverStat | 55|
+2023-06-04 22:21:44,403 | DEBUG:Starting new HTTP connection (1): localhost:5000 | MainThread | _new_conn | 244|
+2023-06-04 22:21:46,429 | DEBUG:http://localhost:5000 "GET /libres HTTP/1.1" 200 18 | MainThread | _make_request | 546|
+2023-06-04 22:21:47,833 | DEBUG:Dividiendo texto en 2 | MainThread | <module> | 114|
+2023-06-04 22:21:47,844 | DEBUG:Solicitando servidor para texto 1 | MainThread | <module> | 125|
+2023-06-04 22:21:47,844 | DEBUG:Solicitando servidor al gsc desde el cliente ... | MainThread | solicitud | 68|
+2023-06-04 22:21:47,879 | DEBUG:Starting new HTTP connection (1): localhost:5000 | MainThread | _new_conn | 244|
+2023-06-04 22:21:55,263 | DEBUG:http://localhost:5000 "POST /solicitud HTTP/1.1" 200 7701679 | MainThread | _make_request | 546|
+2023-06-04 22:21:55,345 | DEBUG:Solicitando servidor para texto 2 | MainThread | <module> | 128|
+2023-06-04 22:21:55,346 | DEBUG:Solicitando servidor al gsc desde el cliente ... | MainThread | solicitud | 68|
+2023-06-04 22:21:55,379 | DEBUG:Starting new HTTP connection (1): localhost:5000 | MainThread | _new_conn | 244|
+2023-06-04 22:22:02,699 | DEBUG:http://localhost:5000 "POST /solicitud HTTP/1.1" 200 7701637 | MainThread | _make_request | 546|
+2023-06-04 22:22:02,773 | DEBUG:Decifrando resultado 1 | MainThread | <module> | 132|
+2023-06-04 22:22:05,915 | DEBUG:Decifrando resultado 2 | MainThread | <module> | 135|
+2023-06-04 22:22:08,974 | DEBUG:Uniendo resultados | MainThread | <module> | 138|
+2023-06-04 22:22:08,982 | DEBUG:Programa finalizado | MainThread | <module> | 145|

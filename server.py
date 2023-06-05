@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 import logging
+import time
 
 # Configurar el registro
 logging.basicConfig(filename='bitacora.log', level=logging.DEBUG, filemode='w',
@@ -37,11 +38,9 @@ def solicitud():
     
     if libres > 0:
         libres -= 1
-        logging.debug(f"Solicitud recibida - Texto: {texto} | Desplazamiento: {desplazamiento}")
+        #logging.debug(f"Solicitud recibida - Texto: {texto} | Desplazamiento: {desplazamiento}")
         cifrado_texto = cifrado(texto, desplazamiento)
-        # Simular tiempo de procesamiento
-        time.sleep(5)
-        logging.debug(f"Solicitud procesada - Texto cifrado: {cifrado_texto}")
+        #logging.debug(f"Solicitud procesada - Texto cifrado: {cifrado_texto}")
         libres += 1
         return jsonify({'resultado': cifrado_texto})
     else:
